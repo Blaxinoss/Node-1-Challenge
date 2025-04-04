@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "http": "node ./BuiltIn_modules/Http.js",
+    "devhttp": "nodemon ./BuiltIn_modules/Http.js"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +12,10 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
-    "@types/node": "^22.14.0"
+    "@types/node": "^22.14.0",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "cookie": "^1.0.2"
   }
 }
